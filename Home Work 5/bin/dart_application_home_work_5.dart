@@ -7,7 +7,7 @@ void main() {
   String first_str = stdin.readLineSync()!;
   double first_num = double.tryParse(first_str) ?? 0;
   if (first_num == 0 && first_str != '0') {
-    print('Ошибка! Посчитать текст не возможно.');
+    print('Ошибка! Посчитать текст невозможно.');
     exit(200);
   }
 
