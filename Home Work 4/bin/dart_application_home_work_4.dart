@@ -1,4 +1,4 @@
-// Home work (Lesson 5)
+// Home work 4 (Lesson 5)
 import 'dart:io';
 
 void main() {
@@ -122,7 +122,8 @@ Finger = 1 ➞ “большой палец” */
 /*7) Дана строка из 6-ти цифр. Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр. Если это так - выведите 'да', в противном случае выведите 'нет'. */
 
   String str6 = '132133';
-  if ((str6[0] + str6[1] + str6[2]) == (str6[3] + str6[4] + str6[5])) {
+  if ((int.parse(str6[0]) + int.parse(str6[1]) + int.parse(str6[2])) ==
+      (int.parse(str6[3]) + int.parse(str6[4]) + int.parse(str6[5]))) {
     print('Да');
   } else {
     print('Нет');
