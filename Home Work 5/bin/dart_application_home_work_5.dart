@@ -29,7 +29,7 @@ void main() {
     String exponentiate_str = stdin.readLineSync()!;
     double exponentiate_num = double.tryParse(exponentiate_str) ?? 0;
     if (exponentiate_num == 0 && exponentiate_str != '0') {
-      print('Ошибка! Возвести в степень текст не возможно.');
+      print('Ошибка! Возвести в степень текст невозможно.');
       exit(200);
     } else {
       print('Ответ: ${pow(first_num, exponentiate_num)}');
@@ -39,7 +39,7 @@ void main() {
     String second_str = stdin.readLineSync()!;
     double second_num = double.tryParse(second_str) ?? 0;
     if (second_num == 0 && second_str != '0') {
-      print('Ошибка! Посчитать текст не возможно.');
+      print('Ошибка! Посчитать текст невозможно.');
       exit(200);
     }
 
